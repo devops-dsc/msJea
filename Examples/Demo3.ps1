@@ -1,10 +1,10 @@
-﻿cls
+cls
 
 configuration Demo3
 {
     Import-DscResource -module xjea
 
-    xJeaToolKit FileSystem
+    msJeaToolKit FileSystem
     {
         Name = 'FileSystem'
             CommandSpecs = @"
@@ -38,12 +38,12 @@ Module,name,Parameter,ValidateSet,ValidatePattern
         Ensure = 'Present'        
     }
     
-    xJeaEndPoint Demo3EP
+    msJeaEndPoint Demo3EP
     {
         Name      = 'Demo3EP'
         ToolKit   = 'FileSystem'
         Ensure    = 'Present'
-        DependsOn = '[xJeaToolKit]FileSystem'
+        DependsOn = '[msJeaToolKit]FileSystem'
     }
 }
 

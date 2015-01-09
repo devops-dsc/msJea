@@ -1,10 +1,10 @@
-﻿cls
+cls
 
 configuration Demo1
 {
     Import-DscResource -module xjea
 
-    xJeaToolKit Process
+    msJeaToolKit Process
     {
         Name         = 'Process'
         CommandSpecs = @"
@@ -15,12 +15,12 @@ Stop-Process,Name,calc;notepad
 Restart-Service,Name,,^A
 "@
     }
-    xJeaEndPoint Demo1EP
+    msJeaEndPoint Demo1EP
     {
         Name                   = 'Demo1EP'
         Toolkit                = 'Process'
         SecurityDescriptorSddl = 'O:NSG:BAD:P(A;;GX;;;WD)S:P(AU;FA;GA;;;WD)(AU;SA;GXGW;;;WD)'                                  
-        DependsOn              = '[xJeaToolKit]Process'
+        DependsOn              = '[msJeaToolKit]Process'
     }
 }
 

@@ -1,4 +1,4 @@
-﻿# Copyright © 2014, Microsoft Corporation. All rights reserved.
+# Copyright � 2014, Microsoft Corporation. All rights reserved.
 # Internal function to throw terminating error with specified errorCategory, errorId and errorMessage
 function New-TerminatingError
 {

@@ -1,4 +1,4 @@
-﻿# Copyright © 2014, Microsoft Corporation. All rights reserved.
+# Copyright � 2014, Microsoft Corporation. All rights reserved.
 
 function Get-JeaDir              { Join-Path $env:ProgramFiles 'Jea' }
 function Get-JeaToolKitDir       { Join-Path (Get-JeaDir) 'Toolkit'}

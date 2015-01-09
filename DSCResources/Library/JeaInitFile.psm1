@@ -1,4 +1,4 @@
-﻿# Copyright © 2014, Microsoft Corporation. All rights reserved.
+# Copyright � 2014, Microsoft Corporation. All rights reserved.
 function New-InitializationFile 
 {
     [CmdletBinding()]

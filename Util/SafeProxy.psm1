@@ -1,4 +1,4 @@
-﻿# Copyright © 2014, Microsoft Corporation. All rights reserved.
+# Copyright � 2014, Microsoft Corporation. All rights reserved.
 
 <#
 This Proxy for Sort-Object Does exactly 1 thing - it strongly types Property to STRING[]

@@ -1,9 +1,9 @@
-﻿Configuration SetupJea
+Configuration SetupJea
 {
     Import-DscResource -module xjea
     Node localhost
     {
-        xJeaEndPoint CleanAll
+        msJeaEndPoint CleanAll
         {
             Name     = 'CleanALL'
             CleanAll = $true

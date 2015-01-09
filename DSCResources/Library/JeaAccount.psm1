@@ -1,4 +1,4 @@
-﻿# Copyright © 2014, Microsoft Corporation. All rights reserved.
+# Copyright � 2014, Microsoft Corporation. All rights reserved.
 Import-Module $PSScriptRoot\..\Library\Helper.psm1
 Import-Module $PSScriptRoot\..\Library\JeaDir.psm1
 
