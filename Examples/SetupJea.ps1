@@ -1,6 +1,6 @@
 Configuration SetupJea
 {
-    Import-DscResource -module xjea
+    Import-DscResource -module msJea
     Node localhost
     {
         msJeaEndPoint CleanAll

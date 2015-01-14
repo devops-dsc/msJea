@@ -1,7 +1,7 @@
 cls
 configuration Demo2
 {
-    Import-DscResource -module xjea
+    Import-DscResource -module msJea
 
     msJeaToolKit SMBGet
     {
