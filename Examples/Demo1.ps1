@@ -2,7 +2,7 @@ cls
 
 configuration Demo1
 {
-    Import-DscResource -module xjea
+    Import-DscResource -module msJea
 
     msJeaToolKit Process
     {
